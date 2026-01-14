@@ -41,9 +41,9 @@ jobs:
           args: >
             -Dsonar.projectKey=casspuisset_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD
             -Dsonar.organization=casspuissets0nark3y
-            -Dsonar.sources=back/src/main
-            -Dsonar.tests=back/src/test
+            -Dsonar.sources=src/main
+            -Dsonar.tests=src/test
             -Dsonar.java.source=17
-            -Dsonar.java.binaries=back/target/classes
+            -Dsonar.java.binaries=target/classes
             -Dsonar.coverage.jacoco.xmlReportPaths=target/site/jacoco/jacoco.xml
             -Dsonar.sourceEncoding=UTF-8
