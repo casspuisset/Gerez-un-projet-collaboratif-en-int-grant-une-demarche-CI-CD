@@ -41,8 +41,8 @@ jobs:
         with:
           projectBaseDir: front
           args: >
-            -Dsonar.projectKey=casspuisset_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD
-            -Dsonar.organization=casspuissets0nark3y
+            -Dsonar.projectKey=casspuisset_Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD2
+            -Dsonar.organization=casspuisset
             -Dsonar.sources=src
             -Dsonar.tests=src
             -Dsonar.test.inclusions=**/*.spec.ts
