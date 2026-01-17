@@ -31,8 +31,8 @@ jobs:
       - name: Build, test and generate JaCoCo coverage
         run: mvn clean verify
 
-      - name: SonarCloud backend scan
-        uses: SonarSource/sonarcloud-github-action@v2
+      - name: SonarQube backend scan
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:

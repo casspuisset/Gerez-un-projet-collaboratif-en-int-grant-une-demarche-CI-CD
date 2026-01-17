@@ -34,8 +34,8 @@ jobs:
       - name: Run Angular tests with coverage
         run: npm test -- --browsers=ChromeHeadless --watch=false --code-coverage
 
-      - name: SonarCloud frontend scan
-        uses: SonarSource/sonarcloud-github-action@v2
+      - name: SonarQube frontend scan
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
