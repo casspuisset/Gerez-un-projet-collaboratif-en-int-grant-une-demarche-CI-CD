@@ -43,6 +43,7 @@ jobs:
           args: >
             -Dsonar.projectKey=casspuisset_bobapp-front
             -Dsonar.organization=casspuisset
+            -Dsonar.branch.name=main
             -Dsonar.sources=src/app
             -Dsonar.tests=src
             -Dsonar.test.inclusions=**/*.spec.ts
